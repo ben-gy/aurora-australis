@@ -1,0 +1,28 @@
+aurora-australis — third-party notices
+======================================
+
+The application's own source is licensed under AGPL-3.0-or-later with an added
+section 7(b) attribution term (see LICENSE and ADDITIONAL-TERMS.md in the source
+repository). The components below keep their own licences.
+
+Leaflet 1.9.4 — BSD-2-Clause
+  https://leafletjs.com/
+  Copyright (c) 2010-2023, Volodymyr Agafonkin
+  Copyright (c) 2010-2011, CloudMade
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions are met:
+  1. Redistributions of source code must retain the above copyright notice,
+     this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+  THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES ARE
+  DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+  FOR ANY DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE.
+
+Data & basemap (fetched at runtime, not bundled)
+  Space-weather data — NOAA Space Weather Prediction Center (public domain)
+  Map tiles — © CARTO, © OpenStreetMap contributors
+  State boundaries — Australian Bureau of Statistics, ASGS 2021 (CC BY 4.0)
