@@ -1,6 +1,16 @@
 /* SPDX-License-Identifier: AGPL-3.0-or-later
    Copyright (C) 2026 Ben Richardson */
 
+/* The [hidden] guard — MUST stay above the component rules.
+   An author rule like `.modal-wrap{display:grid}` outranks the browser's
+   `[hidden]{display:none}` (author origin beats the UA stylesheet regardless of
+   specificity), so an element hidden via the `hidden` ATTRIBUTE that is also
+   given a `display` by a class is never actually hidden — and `el.hidden = true`
+   does nothing at all. That shipped this site with the About modal open from
+   first paint, its ✕, its scrim and Escape all firing correctly and none of them
+   able to take effect. */
+[hidden] { display: none !important; }
+
 :root {
   --bg-base: #05060f;
   --bg-surface: #0a0e1f;
